@@ -1,1 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
 
+.head{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff;
+ 
+}
+    
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color:rgb(180, 62, 206);
+}
+
+.home{
+    margin-left: 8%;
+    margin-top: 9%;
+    
+}
+
+.home h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    color:rgb(0, 0, 0);
+    margin-bottom: 2px;
+}
+
+.home p{
+    color:rgb(5, 0, 6);
+    line-height: 39px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span{
+    color:rgb(104, 20, 122);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s
+}
+.images:hover .bg{
+    bottom: 30px;
+}
+
+.images:hover .self{
+    left: 45%;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #ffffff;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+    
+}
+
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items:  center;
+    justify-content: space-around;
+
+}
+
+.about-text h2{
+    color: rgb(0, 0, 0);
+    font-size: 500px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h4{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+i{
+    color:rgb(104, 20, 122);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.about-text p{
+    color: black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: rgb(104, 20, 122);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px ;
+    border-radius: 30;
+    transition: .4s;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.webDev{
+    background: #fad8ff;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: black;
+    font-size: 200%;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #f6bffe;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center  ;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+
+}
+
+.h5{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.card:hover{
+    background-color:rgb(100, 33, 114);
+    border: 2px solid;
+    cursor: pointer;
+}

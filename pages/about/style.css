@@ -9,7 +9,6 @@
     
 }
 
-
 .main{
     width: 1130px;
     max-width: 95%;
@@ -24,6 +23,7 @@
     color: rgb(0, 0, 0);
     font-size: 500px;
     text-transform: capitalize;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 .about-text h4{
@@ -46,4 +46,10 @@ i{
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }

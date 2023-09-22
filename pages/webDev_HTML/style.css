@@ -43,6 +43,8 @@
     color: black;
     font-size: 30px;
     margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
 }
 
 .card:hover{

@@ -15,7 +15,6 @@
 .title h5{
     color: black;
     font-size: 200%;
-    width: 1130px;
     margin: 30px auto;
     text-align: center;
     font-weight: bolder;
@@ -52,7 +51,15 @@
 
 }
 
-.h5{
+.h5 a{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-weight: bold;
+    
+}
+
+.h5 a:hover{
     color: black;
     font-size: 30px;
     margin-bottom: 15px;
